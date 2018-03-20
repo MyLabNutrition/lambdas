@@ -2,6 +2,7 @@ exports.handler = function(event, context, callback) {
     console.log("received event:", JSON.stringify(event, null, 2));
     const sgMail = require('@sendgrid/mail');
     sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+	sgMail.setSubstitutionWrappers('-', '-'); // Configure the substitution tag wrappers globally
     const msg = {
         to: event.to,
         from: event.from,
