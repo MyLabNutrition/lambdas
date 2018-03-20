@@ -1,4 +1,4 @@
-#Send Email Lambda
+# Send Email Lambda
 ## Dependencies
 * `@sendgrid/mail`
 
