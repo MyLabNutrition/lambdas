@@ -1,0 +1,19 @@
+{
+  "name": "shortlink",
+  "version": "1.0.0",
+  "description": "Uses bitly API for shorting a link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shortlink",
+    "bitly",
+    "lambda"
+  ],
+  "author": "MyLab Nutrition",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.85.0"
+  }
+}
